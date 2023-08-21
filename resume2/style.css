@@ -86,6 +86,9 @@ body{
         background-color: #12b3cd;
         text-align: center;
     }
+    .para-div p {
+        color: #424141;
+    }
     
     .training-div {
         width: 100%;
@@ -264,9 +267,7 @@ body{
         .prediction-div p {
             margin-left: 0px;
         }
-        .para-div p {
-            width: 100%;
-        }
+        
         .left-side {
             display: initial;
         }

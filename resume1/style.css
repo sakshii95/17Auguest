@@ -5,6 +5,11 @@ padding: 0px;
 height: 100%;
 
 }
+.home-page{
+
+    margin: auto;
+    max-width: 1100px;
+}
 /* navbar-div */
 .navbar {
     justify-content: space-around;
@@ -50,13 +55,14 @@ height: 100%;
     color: white;
     background-color: blue;
 }
+
 .para-div {
     padding: 14px;
     font-weight: 500;
-    font-family: ui-sans-serif;
+    font-family: sans-serif;
     font-size: 17px;
-    color: #0c0c0c;
-    background-color: #f5d0d6;
+    color: #444343;
+    background-color: #f9dbca;
 }
 .para-div p {
     width: 50%;

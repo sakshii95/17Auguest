@@ -27,6 +27,13 @@
     font-family: sans-serif;
     font-size: 21px;
 }
+.details1 h3 {
+    padding: 6px;
+    border-radius: 14px;
+    border: 1px solid;
+    font-size: 20px;
+    background-color: white;
+}
 
 .link-mail {
     justify-content: space-between;
@@ -93,9 +100,12 @@ select {
     margin-top: 20px;
 }
  
-.right-div h2 {
-    color: #cd3c3c;
-    font-size: 16px;
+
+.third-div h2 {
+    margin-top: 6px;
+    margin-bottom: -4px;
+    font-size: 20px;
+    color: #e14141; 
 }
 
 .first-div h1 {
@@ -142,6 +152,7 @@ select {
     margin-left: 14px;
     padding: 6px;
     border-radius: 5px;
+    width: 30%;
 }
 .container-left {
     border: 2px solid #ed9595;
@@ -156,9 +167,7 @@ select {
 .second-div {
     width: 35%;
 }
-.third-div {
-    width: 30%;
-}
+
 .link-list h4 {
     font-size: 17px;
     color: #4a4848;
@@ -275,16 +284,55 @@ ul.list2 li {
     color: #00adff;
     margin-left: 30px;
 }
+.mid-div {
+    display: flex;
+    align-items: center;
+}
+.second-div{
+    margin-left: 68px;
+}
+
+.second-div h2 {
+    font-size: 22px;
+ 
+}
+
 
 
 @media (max-width: 768px) {
+    .training-div {
+        display: initial;
+    }
+
+
+.container-left {
+   height: 100%;
+    width: 100%;
+}
+.right-div {
+    width: 100%;
+    margin-left: 0px;
+}
+
+.third-div {
+    height: 100px;
+    margin-left: 0px;
+    width: 100%;
+}
+
+    .second-div  {
+        margin-left: 0px;
+    }
+    .mid-div {
+        display:initial;
+    }
     .link-mail {
         display: initial;
         flex-direction: column;
     }
     .details2 {
         flex-direction: column;
-        align-items: center;
+        display: initial;
     }
     
     .big-container {
@@ -295,7 +343,7 @@ ul.list2 li {
     .mail-div {
         margin-left: 0;
         flex-direction: column;
-        align-items: center;
+      display: initial;
     }
     
     .select-bar,
@@ -304,15 +352,43 @@ ul.list2 li {
         margin-right: 0;
     }
 
-    .right-div,
-    .third-div {
-        width: 100%;
-        margin: 15px 0;
-    }
+  
 
     .first-div,
     .second-div,
     .third-div {
         width: 100%;
+        height: 100%;
     }
+    .right-div, .third-div {
+        width: 100%;
+        height: 100%;
+        margin-top: 10px;
+    }
+
+    
+    .tech-div-management {
+        display: initial;
+    }
+.tech-div-management h5 {
+    margin-left: 0px;
+ 
+}
+.tech-div-management h4 {
+    margin-left: 0px;
+
+    
+}
+.left-side {
+    display: initial;
+}
+ul.list1 li {
+    margin-left: 0px;
+}
+.navbar {
+    display: initial;
+}
+.second-div {
+    width: 100%;
+}
 }
