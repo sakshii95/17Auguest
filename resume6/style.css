@@ -1,0 +1,19 @@
+body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    
+    }
+
+.personal-div-sep {
+    display: flex;
+}
+.navbar {
+    justify-content: space-between;
+    display: flex;
+}
+.home-container {
+    margin: auto;
+    max-width: 1100px;
+}
