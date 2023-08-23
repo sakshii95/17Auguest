@@ -277,6 +277,7 @@ body{
     }
     .container-left {
         display: flex;
+        max-width: 100%;
     }
     .join-div {
         display: flex;
@@ -314,11 +315,11 @@ ul.list3 {
     @media (max-width:600px) {
         .container-left {
             display: initial;
-            width: 100%;
-            padding: 0px;
+            max-width: 100%;
         }
+        
         .container-left h4 {
-            width: 100%;
+            width: 80%;
         }
         .join-div {
             display: initial;
@@ -357,25 +358,21 @@ ul.list3 {
     
         .right-div {
             width: 100%;
-            padding: 0px;
+            padding: 2px;
         }
     
         .training-div {
            
             display: initial;
         }
-        .container-left {
-           width: 100%;
-        }
-        .para-div {
-            padding: 0px;
-        }
+        
         .year-div h3 {
             margin-left: 0px;
         }
         .container-elect {
             width: 100%;
-            padding: 0px;
+            padding: 2px;
+
         }
         .border-lenght1 {
             width: 100%;
@@ -386,6 +383,10 @@ ul.list3 {
         }
         .mail-div a {
             margin-left: 0px;
+           
+        }
+        .main-div {
+            max-width: 100%;
            
         }
         
