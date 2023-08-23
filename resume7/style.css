@@ -120,10 +120,10 @@ body{
     .container-left h4 {
         text-align: center;
         border-radius: 6px;
-        width: 14%;
         color: black;
         padding: 7px;
         background-color: white;
+        width: 20%;
     }
    
    
@@ -277,7 +277,6 @@ body{
     }
     .container-left {
         display: flex;
-        max-width: 100%;
     }
     .join-div {
         display: flex;
@@ -315,12 +314,9 @@ ul.list3 {
     @media (max-width:600px) {
         .container-left {
             display: initial;
-            max-width: 100%;
+
         }
         
-        .container-left h4 {
-            width: 80%;
-        }
         .join-div {
             display: initial;
         }
@@ -358,7 +354,7 @@ ul.list3 {
     
         .right-div {
             width: 100%;
-            padding: 2px;
+            padding: 0px;
         }
     
         .training-div {
@@ -371,7 +367,7 @@ ul.list3 {
         }
         .container-elect {
             width: 100%;
-            padding: 2px;
+            padding: 0px;
 
         }
         .border-lenght1 {
