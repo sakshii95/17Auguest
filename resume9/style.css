@@ -166,7 +166,19 @@ ul.list li {
     color: #423f3f;
     font-size: 17px;
 }
-
+.box-div h2 {
+    font-size: 15px;
+}
+.box-div h3 {
+    margin-top: -11px;
+    margin-bottom: -18px;
+    font-size: 15px;
+    color: #858080;
+    font-family: sans-serif;
+}
+.box-div h4 {
+    color: #3e3c3c;
+}
 @media (max-width:600px){
 
 

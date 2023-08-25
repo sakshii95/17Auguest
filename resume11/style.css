@@ -1,0 +1,344 @@
+body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    
+    }
+    /* navbar-div */
+    .navbar {
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+    }
+    
+    .navbar h1 {
+        font-weight: 600;
+        font-family: sans-serif;
+        font-size: 24px;
+    }
+    
+    .link-mail {
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .mail-div {
+        display: flex;
+    }
+    .mail-div h4 {
+        margin-left: 37px;
+        font-size: 19px;
+    }
+    .navbar a {
+        font-weight: 600;
+        color: black;
+    }
+    .border-bottom {
+        margin-bottom: -12px;
+        border-bottom: 2px solid black;
+        width: 152px;
+        margin-top: 2px;
+    }
+
+.link-mail h4 {
+    font-family: sans-serif;
+    color: #4e4c4c;
+    font-weight: 600;
+    font-size: 16px;
+}
+.link-mail {
+    margin-top: -20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+    .country-div h4 {
+        margin-top: -10px;
+        color: #565454;
+        font-size: 16px;
+    }
+    .mail-div h3 {
+        color: #565454;
+        font-size: 16px;   
+    }
+    
+    .country-div h3 {
+        font-size: 13px;
+        border-radius: 22px;
+        padding: 8px 24px;
+        color: white;
+        background-color: blue;
+    }
+    span.para.-div1 {
+        font-family: sans-serif;
+        font-size: 16px;
+        color: white;
+        background-color: #0f0f44;
+        padding: 9px 15px;
+        border-radius: 26px;
+    }
+   
+   
+    .para-div {
+        padding: 15px;
+        font-weight: 500;
+        font-family: ui-sans-serif;
+        font-size: 17px;
+        color: #3e3a3a;
+        background-color: #fbf8f8;
+    }
+    .para-div p {
+        color: #424141;
+    }
+    
+    .training-div {
+        width: 100%;
+        display: flex;
+        margin-top: -16px;
+    }
+    
+    .container-left {
+        width: 50%;
+    }
+    .right-div {
+        width: 50%;
+    }
+   
+    .box h5 {
+        color: #2d2d5a;
+        margin-left: 11px;
+        padding: 9px 15px;
+        margin-top: 3px;
+        font-size: 14px;
+        margin-bottom: 22px;
+    }
+   
+    .container-elect h1 {
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 18px;
+        color: white;
+        background-color: #df1b1b;
+        padding: 11px;
+    }
+    .first-div h1 {
+        background-color: blue;
+        font-family: sans-serif;
+        font-size: 18px;
+        color: white;
+        padding: 11px;
+        text-align: center;
+    }
+    .exp-div h1 {
+        color: blue;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 22px;
+        margin-bottom: -10px;
+    }
+    .right-div h2 {
+        margin-top: 17px;
+        margin-bottom: 12px;
+        font-size: 16px;
+        color: #15c5ac;
+    }
+    .border-lenght-bottom {
+        border-bottom: 1px solid #c9c2c2;
+    }
+    
+    .container-left h3 {
+        color: #9d9696;
+        font-size: 17px;
+        margin-bottom: -15px;
+    }
+   
+    .container-left h4 {
+        padding: 8px;
+        color: white;
+        width: 14%;
+        background-color: #3232bd;
+    }
+    
+    .container-left h2 {
+        font-size: 17px;
+        margin-top: 9px;
+        margin-bottom: -13px;
+        color: black;
+    }
+    
+    
+    .box {
+        margin-bottom: -20px;
+        display: flex;
+        padding: 4px;
+        margin-top: -7px;
+    }
+    
+    
+    .left-side {
+        justify-content: space-between;
+        display: flex;
+    }
+    .tech-div-management {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .tech-div h3 {
+        color: #444343;
+        margin-left: 21px;
+        margin-bottom: 2px;
+        font-size: 21px;
+    }
+  
+    .tech-div-management h3 {
+        color: #666464;
+        padding: 16px;
+        font-size: 14px;
+        border-radius: 26px;
+        border: 1px solid #e1dede;
+    }
+   
+    
+    .left-side {
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+        margin-bottom: -22px;
+        margin-top: -18px;
+    }
+    
+    .tech-div-management h4 {
+        color: #6c6a6a;
+        margin-left: 20px;
+        font-size: 17px;
+    }
+   
+   
+    .tech-div-management h5 {
+        font-size: 16px;
+    }
+    .year-div h3 {
+        font-size: 17px;
+        color: #178ff5;
+    }
+    .left-side h5 {
+        color: #666666;
+        font-size: 17px;
+    }
+    
+    ul.list1 li {
+        margin-top: 12px;
+        color: #565050;
+        font-family: serif;
+    }
+    .prediction-div {
+        margin-top: 13px;
+        border: 1px solid #cbc8c8;
+    }
+    .prediction-div p {
+        color: #464444;
+        font-weight: 600;
+        font-size: 17px;
+        margin-left: 20px;
+    }
+    .project h1 {
+        font-family: sans-serif;
+        color: blue;
+        font-size: 22px;
+        text-align: center;
+    }
+    .prediction-div h2 {
+        width: 17%;
+        font-size: 15px;
+        padding: 10px;
+        color: white;
+        background-color: black;
+        text-align: center;
+        margin-left: 27px;
+    }
+   
+    .tech-div {
+        margin-top: 19px;
+        border: 1px solid #dbd9d9;
+    }
+   
+    .project1 h1 {
+        font-family: sans-serif;
+        color: blue;
+        font-size: 22px;
+       margin-left: 37px;
+    }
+    
+    ul.list li {
+        margin-top: 8px;
+        font-size: 17px;
+        color: #585555;
+        list-style-type: none;
+    }
+    .box1 {
+        padding: 9px;
+        margin-top: -13px;
+        background-color: #f7e8eb;
+    }
+    .box2 {
+        background-color: #e0f3fb;
+        padding: 9px;
+        margin-top: -13px;
+    }
+    
+    
+    
+    @media (max-width:600px) {
+        .prediction-div h2 {
+            width: 20%;
+            margin-left: 0px;
+        }
+        .prediction-div p {
+            margin-left: 0px;
+        }
+        
+        .left-side {
+            display: initial;
+        }
+        .left-side {
+          
+            display: initial;
+        }
+        .tech-div-management {
+            display: initial;
+        }
+        .navbar {
+            display: initial;
+          
+        }
+        .right-div {
+            margin-left: 0px;
+            width: 100%;
+        }
+        .box {
+            display: initial;
+        }
+    
+        .training-div {
+            width: 100%;
+            display: initial;
+        }
+        .container-left {
+           width: 100%;
+        }
+        .para-div {
+            padding: 20px;
+        }
+        .link-mail {
+            display: initial;
+          
+        }
+        .mail-div {
+            display: initial;
+        }
+        
+    }

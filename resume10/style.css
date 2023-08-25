@@ -1,0 +1,173 @@
+
+.para-div {
+    display: flex;
+    color: wheat;
+    background-color: #ef1f1f;
+}
+.home-container {
+    margin: auto;
+    max-width: 1100px;
+}
+
+.container-quali-skill {
+    display: flex;
+    margin-top: 44px;
+}
+.box {
+    display: flex;
+}
+.first-div {
+    background-color: #f5bec8;
+    width: 50%;
+    border-radius: 13px;
+    padding:14px;
+}
+
+.second-div {
+    background-color: #f5bec8;
+    width: 50%;
+    border-radius: 13px;
+    margin-left: 23px;
+    padding:14px;
+
+}
+.first-div h1 {
+    font-family: sans-serif;
+    color: #dd062b;
+    font-size: 29px;
+}
+.second-div  h1 {
+    font-family: sans-serif;
+    color: #dd062b;
+    font-size: 29px;
+}
+.first-div h3 {
+    color: #d30529;
+    font-size: 17px;
+}
+.first-div h2 {
+    margin-bottom: -15px;
+    color: #262525;
+    font-size: 19px;
+}
+.second-div h2 {
+    color: #363535;
+    font-size: 18px;
+    margin-bottom: -6px;
+}
+.box h5 {
+    margin-bottom: 15px;
+    border-radius: 6px;
+    padding: 4px 12px;
+    border: 2px solid #f34362;
+    margin-left: 11px;
+}
+.container-exp {
+    display: flex;
+}
+.border-lenght {
+    margin-top: 14px;
+    height: 39px;
+    border-right: 4px solid #d30327;
+    border-radius: 9px;
+}
+.container-exp h2 {
+    margin-left: 9px;
+    font-family: sans-serif;
+    color: #d10528;
+}
+.container-tesla {
+    margin-top: 16px;
+    border-radius: 11px;
+    border: 2px solid #f592a3;
+}
+.container-tesla h1 {
+    font-size: 25px;
+    font-family: sans-serif;
+    color: #e51b3e;
+    margin-left: 27px;
+}
+.container-product {
+    display: flex;
+}
+
+.container-product h3 {
+    margin-left: 31px;
+    color: #d72544;
+    font-size: 17px;
+}
+ul.list1 li {
+    color: #343434;
+    font-size: 17px;
+    margin-top: 12px;
+    list-style-type: none;
+}
+.container-product {
+    margin-top: -27px;
+    display: flex;
+    margin-bottom: -23px;
+}
+.container-prediction {
+    border: 2px solid #ef98a8;
+    padding: 10px;
+    border-radius: 9px;
+}
+.container-prediction p {
+    margin-left: 36px;
+    color: #3a3939;
+    font-weight: 600;
+    font-size: 18px;
+}
+ul.list2 li {
+    color: #323030;
+    font-size: 16px;
+    margin-top: 11px;
+    list-style-type: none;
+}
+.container-list-footer {
+    justify-content: space-between;
+    display: flex;
+}
+.footer {
+    color: white;
+    background-color: #ef1f1f;
+}
+.container-score {
+    border: 2px solid #ef98a8;
+    border-radius: 9px;
+
+
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:600px){
+    .container-prediction {
+        padding: 0px;
+    }
+    .box {
+        display: initial;
+    }
+
+    .container-prediction p {
+        margin-left: 0px;
+    }
+    .container-tesla h1 {
+        margin-left: 0px;
+    }
+    .container-tesla h1 {
+        margin-left: 0px;
+    }
+    .container-product h3 {
+        margin-left: 0px;
+    }
+    .container-list-footer {
+        display: initial;
+    }
+}
