@@ -1,0 +1,156 @@
+.homepage {
+    max-width: 1100px;
+    display: table;
+    margin: auto;
+}
+.main-div {
+    margin: 50px;
+   
+}
+input[type="text"] {
+    padding: 7px 54px;
+    border-radius: 24px;
+    font-size: 16px;
+}
+
+
+.nav-sys {
+    color: white;
+    background-color: #1334ef;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    height: 50px;
+}
+ul.list3 li {
+    margin-top: 8px;
+    color: #6e6e6e;
+    font-size: 17px;  
+}
+ul.list4 li {
+    margin-top: 8px;
+    color: #6e6e6e;
+    font-size: 17px;
+}
+ul.list1 li {
+    margin-top: 8px;
+    color: #6e6e6e;
+    font-size: 17px;  
+}
+.exp-div h2 {
+    font-family: sans-serif;
+    color: gray;
+    font-size: 18px;
+    margin-bottom: -12px;
+}
+.left-div {
+    color: white;
+    background-color: #0303a1;
+    display: flex;
+    height: 43px;
+}
+.prediction-div p {
+    margin-top: -11px;
+    margin-bottom: -11px;
+    color: #504e4e;
+    font-size: 19px;
+    font-weight: 600;
+}
+.exp-div h2 {
+    font-family: sans-serif;
+    color: gray;
+    font-size: 18px;
+}
+
+.training-box-sys {
+    display: flex;
+}
+.box {
+    display: flex;
+    margin-top: 11px;
+}
+
+.left-div h3 {
+    margin-left: 20px;
+}
+.link-list h3 {
+    margin-bottom: -15px;
+    font-size: 17px;
+    font-family: sans-serif;
+    color: #626060;
+    margin-left: 4px;
+}
+.link-list h2 {
+    font-family: sans-serif;
+    font-size: 26px;
+}
+.candidate-div {
+    display: flex;
+}
+.link-list1 h3 {
+    color: #625f5f;
+    font-size: 17px;
+}
+.link-list1 {
+    margin-left: 68px;
+}
+.para-div p {
+    color: #484747;
+    font-size: 17px;
+}
+.exp-div h1 {
+    font-family: sans-serif;
+    font-size: 23px;
+}
+
+.training-div h1 {
+
+    font-family: sans-serif;
+    font-size: 22px; 
+}
+span.light-color {
+    color: #767373;
+    font-size: 19px;
+}
+ul.list3 li {
+    font-size: 18px;
+    color: #3a3838;
+    margin-top: 12px;
+}
+
+
+span.light {
+    border-radius: 24px;
+    padding: 7px 14px;
+    color: white;
+    background-color: blue;
+}
+.training-box-sys h3 {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+
+.training-div h2 {
+    font-size: 14px;
+}
+.training-div h3 {
+    margin-top: -11px;
+    margin-bottom: -16px;
+    color: #767474;
+    font-size: 15px;
+}
+.box h5 {
+    margin: 6px;
+    border-radius: 5px;
+    padding: 4px 12px;
+    border: 1px solid gray;
+}
+ul.lis2 li {
+    font-size: 17px;
+    color: #5e5b5b;
+}
+
+
+
+
