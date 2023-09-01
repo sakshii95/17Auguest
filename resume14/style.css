@@ -27,7 +27,7 @@
 .nav-sys {
     color: white;
     background: black;
-    padding: 9px;
+    padding: 5px;
 }
 .training-div {
     display: flex;
@@ -207,11 +207,6 @@ ul.lis22 {
 }
 
 @media (max-width:600px){
-
-  
-    ul.list2 li {
-        margin-left: 0px;
-    }
     .training-div {
         display: initial;
     }    

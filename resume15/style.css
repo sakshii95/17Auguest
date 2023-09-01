@@ -14,6 +14,7 @@
 .navbar {
     justify-content: space-between;
     display: flex;
+    flex-wrap: wrap;
 }
 .details {
     justify-content: space-between;
@@ -21,16 +22,21 @@
     align-items: center;
     flex-wrap: wrap;
 }
+
 .training-div {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .sep-div {
     display: flex;
 }
+
 .left-side {
+    padding: 8px;
     justify-content: space-between;
     display: flex;
+    flex-wrap: wrap;
 }
 .tech-div-management {
     display: flex;
@@ -116,14 +122,16 @@
     text-align: center;
     font-size: 13px;
 }
+
 ul.list2 li {
-    margin-left: -36px;
+    padding: 11px;
+    margin-left: -35px;
     margin-top: 9px;
     list-style-type: none;
     color: #242424;
     font-size: 16px;
 }
-ul.lis22 {
+ul.list2 {
     border-radius: 7px;
     border: 1px solid #dbd6d6;
 }
@@ -142,8 +150,6 @@ ul.lis22 {
 }
 
 @media (max-width:600px){
-    ul.list2 li {
-        margin-left: 0px;
-    }
+   
 
 }
