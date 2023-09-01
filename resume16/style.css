@@ -167,7 +167,7 @@ li.list3 {
 .container-software {
     display: flex;
     margin-bottom: 17px;
-   
+
 }
 .text-div {
     align-items: center;
@@ -246,6 +246,7 @@ span.dark-text h2 {
 .project-container {
     display: flex;
     margin-top: 17px;
+   
 }
 .container-academic {
     background-color: blue;
@@ -311,13 +312,6 @@ span.light-div {
     ul.list-type1 li {
         margin-left: 0px;
     }
-    .container-academic {
-        width: 100%;
-    }
-    .present-div {
-        width: 100%;
-        margin-top: 13px;
-    }
     
     .left-side-div {
         width: 100%;
@@ -325,6 +319,10 @@ span.light-div {
     .link-list {
         margin-left: 0px;
        
+    }
+    .left-side-div {
+        margin-left: 0px;
+    
     }
     
     ul.list-type1 li {
@@ -341,6 +339,7 @@ span.light-div {
     .container-big {
         display: initial;
     }
+   
    
  
 }
