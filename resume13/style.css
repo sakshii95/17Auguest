@@ -4,16 +4,13 @@
     margin: auto;
 }
 .main-div {
-    margin: 50px;
-   
+    margin: 50px; 
 }
 input[type="text"] {
     padding: 7px 54px;
     border-radius: 24px;
     font-size: 16px;
 }
-
-
 .nav-sys {
     color: white;
     background-color: #1334ef;
@@ -117,8 +114,6 @@ ul.list3 li {
     color: #3a3838;
     margin-top: 12px;
 }
-
-
 span.light {
     border-radius: 24px;
     padding: 7px 14px;
@@ -129,8 +124,6 @@ span.light {
     font-family: sans-serif;
     font-size: 20px;
 }
-
-
 .training-div h2 {
     font-size: 14px;
 }

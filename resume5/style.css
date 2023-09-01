@@ -6,9 +6,16 @@ body{
     
     }
     
-    .main-div {
-        margin: auto;
+    .home-page{
         max-width: 1100px;
+            margin: auto;
+            display: table; 
+           
+    }
+    .main-div {
+        padding: 14px;
+        margin: 40px 30px;
+        border: 1px solid rgb(237 235 235);
     }
     /* navbar-div */
     .navbar {

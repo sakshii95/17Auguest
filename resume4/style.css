@@ -3,13 +3,16 @@ width: 100%;
 margin: 0px;
 padding: 0px;
 height: 100%;
-
-
 }
-.main-div {
+.home-page{
     max-width: 1100px;
-    margin: auto;
+        margin: auto;
+        display: table; 
 }
+.main-div{
+    margin: 40px 30px;
+}
+
 .nav-sys {
     background-color: black;
 }
@@ -291,7 +294,7 @@ ul.lis2 li {
     padding: 5px;
 }
     
-@media (max-width:600px) {
+/* @media (max-width:600px) {
 
     .right-text {
         display: initial;
@@ -357,4 +360,4 @@ ul.lis2 li {
     }
     
 }
-
+ */

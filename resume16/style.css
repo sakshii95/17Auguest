@@ -8,7 +8,8 @@ body{
   
     .homepage {
         margin: 40px 26px;
-       
+        border: 1px solid #d9d6d6;
+        padding: 6px;
     }
     .shadow {
         max-width: 1100px;
@@ -102,7 +103,7 @@ input[type="text"] {
     font-size: 18px;
 }
 .right-side-div {
-    width: 40%;
+    width: 100%;
 }
 ul.list-sys li {
     color: #363535;
@@ -205,7 +206,6 @@ li.list3 {
 .text-div h2 {
     font-size: 15px;
     font-family: sans-serif;
-   
 }
 
 .text-div h3 {
@@ -294,5 +294,47 @@ span.light-div {
     padding: 4px 33px;
     border: 1px solid;
     font-size: 15px;
+}
+@media (max-width:600px){
+    .container-stream h3 {
+        margin-left: 0px;
+       
+    }
+    ul.list-type1 li {
+        margin-left: 0px;
+    }
+    .container-academic {
+        width: 100%;
+    }
+    .present-div {
+        width: 100%;
+    
+    }
+    .right-side-div {
+        width: 100%;
+    }
+    .left-side-div {
+        width: 100%;
+    }
+    .link-list {
+        margin-left: 0px;
+       
+    }
+    input[type="text"] {
+        width: 100%;
+        margin-left: 0px;
+    }
+    ul.list-type1 li {
+        margin-left: 0px;
+    }
+.container-achievement {
+    width: 100%;
+}
+    .link-list {
+        margin-left: 0px;
+
+    }
+   
+ 
 }
 
