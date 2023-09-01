@@ -8,13 +8,13 @@ body{
   
     .homepage {
         margin: 40px 26px;
-        border: 1px solid #d9d6d6;
         padding: 6px;
     }
     .shadow {
         max-width: 1100px;
         margin: auto;
         display: table; 
+        border: 1px solid #d9d6d6;
     }
 
     .navbar-div {
@@ -35,18 +35,22 @@ body{
         display: flex;
         align-items: center;
     }
+   
+input[type="text"] {
+    width: 35%;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    padding: 13px;
+        margin-left: 18px;
+    
+}
 .first-div {
     color: white;
     background-color: #2727bd;
     display: flex;
-}
-input[type="text"] {
-    width: 60%;
-    font-size: 15px;
-    margin-left: 33px;
-    border: none;
-    border-radius: 10px;
-    padding: 13px;
+    flex-wrap: wrap;
+    padding: 11px;
 }
 .delivery-location {
     color: white;
@@ -118,6 +122,7 @@ li.list3 {
     justify-content: space-between;
     align-items: center;
     display: flex;
+    flex-wrap: wrap;
 }
 .container-stream {
     display: flex;
@@ -163,6 +168,7 @@ li.list3 {
 .container-software {
     display: flex;
     margin-bottom: 17px;
+    flex-wrap: wrap;
 }
 .text-div {
     align-items: center;
@@ -187,6 +193,14 @@ li.list3 {
     font-family: sans-serif;
     font-size: 18px;
 
+}
+.container-achievement {
+    border-radius: 7px;
+    background-color: blue;
+    width: 50%;
+    color: white;
+    margin-top: 10px;
+    margin-left: 17px;
 }
 
 .present-div {
@@ -241,12 +255,7 @@ span.dark-text h2 {
     padding: 7px;
     border-radius: 10px;
 }
-.container-achievement {
-    background-color: blue;
-    width: 50%;
-    color: white;
-    margin-left: 18px;
-}
+
 ul.list-type1 li {
     margin-left: -34px;
     list-style-type: none;
@@ -308,8 +317,10 @@ span.light-div {
     }
     .present-div {
         width: 100%;
-    
+        margin-top: 13px;
     }
+    
+    
     .right-side-div {
         width: 100%;
     }
@@ -320,10 +331,7 @@ span.light-div {
         margin-left: 0px;
        
     }
-    input[type="text"] {
-        width: 100%;
-        margin-left: 0px;
-    }
+    
     ul.list-type1 li {
         margin-left: 0px;
     }
@@ -333,6 +341,13 @@ span.light-div {
     .link-list {
         margin-left: 0px;
 
+    }
+    .left-side-div {
+        margin-left: 0px;
+        width: 100%;
+    }
+    .container-big {
+        display: initial;
     }
    
  

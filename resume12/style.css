@@ -12,6 +12,7 @@ body{
     .container-div-first {
         max-width: 1100px;
         margin: auto;
+        border: 1px solid rgb(252, 249, 249);
     }
 
     .score-div3 h2 {
