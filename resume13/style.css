@@ -42,11 +42,13 @@ ul.list1 li {
     font-size: 18px;
     margin-bottom: -12px;
 }
+
 .left-div {
+    height: 43px;
     color: white;
     background-color: #0303a1;
     display: flex;
-    height: 43px;
+    flex-wrap: wrap;
 }
 .prediction-div p {
     margin-top: -11px;
