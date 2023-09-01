@@ -42,7 +42,10 @@ ul.list1 li {
     font-size: 18px;
     margin-bottom: -12px;
 }
-
+.candidate-div {
+    display: flex;
+    flex-wrap: wrap;
+}
 .left-div {
     height: 43px;
     color: white;
@@ -85,9 +88,7 @@ ul.list1 li {
     font-family: sans-serif;
     font-size: 26px;
 }
-.candidate-div {
-    display: flex;
-}
+
 .link-list1 h3 {
     color: #625f5f;
     font-size: 17px;
