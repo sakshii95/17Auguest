@@ -5,6 +5,15 @@ body{
     height: 100%;
     
     }
+    .shadow{
+
+        margin: auto;
+        max-width: 1100px;
+        border: 1px solid rgb(250, 248, 248);
+    }
+    .home-container {
+        margin: 30px;
+    }
 
 .personal-div-sep {
     display: flex;
@@ -18,10 +27,7 @@ body{
     font-size: 30px;
     color: #03a0eb;
 }
-.home-container {
-    margin: auto;
-    max-width: 1100px;
-}
+
 .navlist1 {
     align-items: center;
     display: flex;
