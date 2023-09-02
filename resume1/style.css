@@ -9,10 +9,11 @@ height: 100%;
     max-width: 1100px;
         margin: auto;
         display: table; 
+        border: 1px solid rgb(233, 231, 231);
 }
 .main-div{
 
-    margin: 40px 30px;
+    margin:  30px;
 }
 /* navbar-div */
 .navbar {

@@ -5,6 +5,9 @@
     max-width: 1100px;
     border: 1px solid #f1eeee;
 }
+.main-container{
+    margin: 20px;
+}
 
 .mid1-div {
     position: relative;

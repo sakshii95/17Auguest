@@ -9,6 +9,10 @@ body{
     .container-home{
         max-width: 1100px;
         margin: auto;
+        border: 1px solid rgb(240, 239, 239);
+    }
+    .main-div{
+        margin: 20px;
     }
 
 .navbar {
