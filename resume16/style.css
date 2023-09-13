@@ -52,9 +52,11 @@ input[type="text"] {
     display: flex;
     background-color: #2222c1;
 }
+
 .sep-div1 {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .sep-div2 {
     justify-content: space-between;
@@ -359,8 +361,9 @@ margin-left: 0px;
     .container-academic {
         width: 100%;
     }
+    .right-side-div {
+        width: 100%;
+    }
    
-   
- 
 }
 

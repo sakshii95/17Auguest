@@ -317,7 +317,10 @@ ul.list3 {
     border: none;
     margin-bottom: -12px;
 }
-
+i.fas.fa-play {
+    padding: 4px 5px;
+    border: 1px solid black;
+}
     
     @media (max-width:600px) {
         .container-left {

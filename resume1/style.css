@@ -11,9 +11,8 @@ height: 100%;
         display: table; 
         border: 1px solid rgb(233, 231, 231);
 }
-.main-div{
-
-    margin:  30px;
+.main-div {
+    margin: 15px;
 }
 /* navbar-div */
 .navbar {
@@ -95,10 +94,11 @@ height: 100%;
     border: 1px solid gray;
     /* height: 300px; */
 }
+
 .right-div {
     margin-top: 21px;
     width: 50%;
-    border: 1px solid gray;
+    border: 1px solid #d5d3d3;
     /* height: 300px; */
 }
 .first-div {
@@ -221,8 +221,21 @@ ul.list li {
     color: #e14141;
     margin-left: 30px;
 }
+.year-div {
+    align-items: center;
+    display: flex;
+}
+i.fas.fa-play {
+    padding: 5px;
+    background: blue;
+    color: white;
+    border-radius: 16px;
+}
 
 @media (max-width:600px) {
+    .year-div {
+        display: initial
+    }
     .prediction-div p {
         margin-left: 0px;
     }
@@ -250,8 +263,6 @@ ul.list li {
     .box {
         display: initial;
     }
-
-  
 
     .training-div {
         width: 100%;
