@@ -10,10 +10,11 @@ body{
 .home-container {
     margin: auto;
     max-width: 1100px;
-    border: 1px solid rgb(230, 227, 227);
+  
 }
 .container-home-div{
-    margin: 20px;
+    margin: 15px;
+    border: 1px solid rgb(230, 227, 227);
 }
 .para-div {
  
@@ -40,7 +41,7 @@ body{
     background-color: #fde5f9;
     width: 50%;
     border-radius: 13px;
-    padding: 12px;
+    padding: 2px;
 }
 .navbar h1 {
     font-family: sans-serif;
@@ -53,7 +54,7 @@ body{
     width: 50%;
     border-radius: 13px;
     margin-left: 23px;
-    padding:14px;
+    padding:2px;
 
 }
 .first-div h1 {
@@ -160,13 +161,53 @@ ul.list2 li {
 .container-score {
     border: 2px solid #ef98a8;
     border-radius: 9px;
-
-
 }
 
 
+.profile a {
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+.profile h3 {
+    margin-bottom: 1px;
+    font-size: 21px;
+    margin-top: 29px;
+}
+
+.profile {
+    margin-top: -33px;
+    justify-content: space-evenly;
+    display: flex;
+}
+.resume-section {
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid #efa0a0;
+}
+.resume-section h2 {
+    color: #f10752;
+    font-size: 26px;
+}
+
 
 @media (max-width:600px){
+    .container-quali-skill {
+        display: initial;
+    }
+    .first-div {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .second-div {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 13px;
+    }
+    .profile {
+        display: initial;
+    }
    
     .container-prediction {
         padding: 0px;

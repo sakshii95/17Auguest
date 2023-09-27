@@ -9,10 +9,11 @@ body{
     .container-home{
         max-width: 1100px;
         margin: auto;
-        border: 1px solid rgb(240, 239, 239);
+      
     }
-    .main-div{
-        margin: 20px;
+    .main-div {
+        border: 1px solid rgb(240, 239, 239);
+        margin: 12px;
     }
 
 .navbar {
@@ -62,12 +63,12 @@ span.dark-div h1 {
 .tech-div h2 {
     text-align: center;
     border-radius: 10px;
-    width: 28%;
     padding: 8px;
     font-family: sans-serif;
     font-size: 19px;
     background-color: black;
     color: #efeded;
+    width: 60%;
 }
 .tech-div {
     align-items: center;
@@ -79,6 +80,14 @@ span.dark-div h1 {
     margin-left: 24px;
     border: 1px solid #dbd9d9;
     padding: 8px;
+}
+.box h5 {
+    font-size: 11px;
+    color: white;
+    padding: 6px 21px;
+    margin-left: 10px;
+    background-color: #df2343;
+    margin-top: -13px;
 }
 .box {
     display: flex;
@@ -107,7 +116,7 @@ span.dark-div h1 {
     color: white;
     background-color: black;
     padding: 11px;
-    width: 30%;
+    width: 20%;
 }
 .box h5 {
     font-size: 11px;
@@ -148,7 +157,7 @@ ul.list1 li {
     color: #ef2f51;
 }
 .mail-div h4 {
-    font-size: 18px;
+    font-size: 16px;
     color: black;
 }
 .text-cont h4 {
@@ -187,6 +196,22 @@ ul.list li {
 .box-div h4 {
     color: #3e3c3c;
 }
+.resume-section {
+    text-align: center;
+    background-color: #fbf6f6;
+}
+.profile {
+    justify-content: space-evenly;
+    display: flex;
+}
+.profile a {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
 @media (max-width:600px){
 
 
@@ -200,6 +225,21 @@ ul.list li {
     .mail-div {
         display: initial;
     }
+    .tech-div h3 {
+        margin-left: 0px;
+}
+.tech-div {
+    display: initial;
+}
+ul.list3 li {
+    margin-left: 0px;
+}
+span.dark-div h1 {
+    width: 52%;
+}
+.project h1 {
+    width: 50%;
+}
 
 }
 

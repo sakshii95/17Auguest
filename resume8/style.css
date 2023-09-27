@@ -46,11 +46,13 @@ top: -7px;
     padding: 12px;
 }
 
+
 .para2-div {
-    margin-right: 26px;
+    padding: 3px;
+    margin-right: 35px;
     border-radius: 9px;
     background-color: white;
-    margin-top: 20px;
+    margin-top: 28px;
 }
 .para2-div h2 {
     font-size: 20px;
@@ -199,10 +201,21 @@ ul.list-div li {
 .main-container {
     margin: 20px;
 }
+.para1-div h2 {
+    font-family: sans-serif;
+    color: white;
+    font-size: 27px;
+}
+.para-qualified h5 {
+    color: white;
+}
 
 
 
 @media (max-width:600px) {
+    .box-system {
+        display: initial;
+    }
 
     .nav-list {
         display: initial;
@@ -235,9 +248,13 @@ ul.list-div li {
       
         display: initial;
     }
+    .para2-div {
+        margin-right: 0px;
+    
 
 }
 
 
 
 
+}
