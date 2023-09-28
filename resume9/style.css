@@ -42,7 +42,7 @@ body{
 span.dark-div h1 {
     text-align: center;
     border-radius: 25px;
-    width: 30%;
+    width: 35%;
     padding: 8px;
     font-family: sans-serif;
     font-size: 22px;
@@ -60,15 +60,15 @@ span.dark-div h1 {
     color: #efeded;
 }
 
+
 .tech-div h2 {
-    text-align: center;
     border-radius: 10px;
     padding: 8px;
     font-family: sans-serif;
     font-size: 19px;
     background-color: black;
     color: #efeded;
-    width: 60%;
+    width: 30%;
 }
 .tech-div {
     align-items: center;
@@ -234,11 +234,12 @@ ul.list li {
 ul.list3 li {
     margin-left: 0px;
 }
-span.dark-div h1 {
-    width: 52%;
-}
+
 .project h1 {
     width: 50%;
+}
+.next-text {
+    display: initial;
 }
 
 }

@@ -6,7 +6,7 @@
     border: 1px solid #f1eeee;
 }
 .main-container{
-    margin: 20px;
+    margin: 15px;
 }
 
 .mid1-div {
@@ -23,7 +23,7 @@ top: -7px;
 }
 .second-div {
     color: #302f2f;
-    padding: 0px 37px;
+    padding: 11px 37px;
     height: 40px;
     font-size: 11px;
     background-color: #ebe9e9;
@@ -39,7 +39,7 @@ top: -7px;
 }
 .para-qualified {
     background-color: #914831;
-    padding: 10px;
+    padding: 7px;
 }
 .para1-div p {
     color: white;
@@ -47,13 +47,7 @@ top: -7px;
 }
 
 
-.para2-div {
-    padding: 3px;
-    margin-right: 35px;
-    border-radius: 9px;
-    background-color: white;
-    margin-top: 28px;
-}
+
 .para2-div h2 {
     font-size: 20px;
     color: #741b1b;
@@ -87,6 +81,14 @@ span.light {
     font-weight: 500;
     text-align: center;
     font-size: 19px;
+}
+.para2-div {
+    width: 50%;
+    padding: 22px;
+    margin-right: 35px;
+    border-radius: 9px;
+    background-color: white;
+    margin-top: 28px;
 }
 .navbar h1 {
     font-size: 29px;
@@ -198,9 +200,7 @@ ul.list-div li {
     margin-bottom: -21px;
     margin-top: -28px;
 }
-.main-container {
-    margin: 20px;
-}
+
 .para1-div h2 {
     font-family: sans-serif;
     color: white;
@@ -248,12 +248,13 @@ ul.list-div li {
       
         display: initial;
     }
-    .para2-div {
-        margin-right: 0px;
+  
+.para2-div {
+    width: 100%;
+    padding: 0px;
+    margin-right: 0px;
     
-
 }
-
 
 
 
